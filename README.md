@@ -6,11 +6,11 @@ Fully automated time tracking for Git repositories. It uses hooks and file monit
 
 __Features:__
 
-- The timer __automatically starts__ when make any file changes in the repository
-- The timer __automatically pauses__ when it doesn't detect any file activity for a while
-- The time you spent is automatically added to the next `git commit`
+- The timer __automatically starts__ when file changes are made in the repository.
+- The timer __automatically pauses__ when editing has been inactive for a set time limit.
+- The time you spent is automatically added to the next `git commit`.
 - The timer increments in discreet steps: the _minimal billable unit_ (MBU), by default this is 1 minute. 
-- Spent time is stored as metadata using [git-notes](https://git-scm.com/docs/git-notes) and can be pushed and stored automatically to any remote repository (e.g Github)
+- Spent time is stored as metadata using [git-notes](https://git-scm.com/docs/git-notes) and can be pushed and stored automatically to any remote repository (e.g Github).
 
 __Currently Supported:__
 
@@ -65,7 +65,7 @@ Now you know how to measure the time you are spending on each commit, you might 
 - [Configuring _Timeglass_](/docs/config.md)
 - [Sharing data with others](/docs/sharing.md)
 
-And ofcourse, you'll always have the options to uninstall:
+And of course, you'll always have the options to uninstall:
 
 - [Uninstalling Timeglass](/docs/uninstall.md)
 
